@@ -15,6 +15,8 @@
 		23BE4DC92412316700B72093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23BE4DC72412316700B72093 /* LaunchScreen.storyboard */; };
 		23BE4DD42412316E00B72093 /* SwiftUITextAndImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DD32412316E00B72093 /* SwiftUITextAndImageTests.swift */; };
 		23BE4DDF2412316E00B72093 /* SwiftUITextAndImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DDE2412316E00B72093 /* SwiftUITextAndImageUITests.swift */; };
+		23BE4DED24123D2F00B72093 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DEC24123D2F00B72093 /* TextView.swift */; };
+		23BE4DEF241240E600B72093 /* TextViewFontStyleAndMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DEE241240E600B72093 /* TextViewFontStyleAndMulti.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		23BE4DDA2412316E00B72093 /* SwiftUITextAndImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITextAndImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BE4DDE2412316E00B72093 /* SwiftUITextAndImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITextAndImageUITests.swift; sourceTree = "<group>"; };
 		23BE4DE02412316E00B72093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BE4DEC24123D2F00B72093 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		23BE4DEE241240E600B72093 /* TextViewFontStyleAndMulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFontStyleAndMulti.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				23BE4DC72412316700B72093 /* LaunchScreen.storyboard */,
 				23BE4DCA2412316700B72093 /* Info.plist */,
 				23BE4DC42412316700B72093 /* Preview Content */,
+				23BE4DEC24123D2F00B72093 /* TextView.swift */,
+				23BE4DEE241240E600B72093 /* TextViewFontStyleAndMulti.swift */,
 			);
 			path = SwiftUITextAndImage;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				23BE4DBD241230BF00B72093 /* AppDelegate.swift in Sources */,
+				23BE4DED24123D2F00B72093 /* TextView.swift in Sources */,
+				23BE4DEF241240E600B72093 /* TextViewFontStyleAndMulti.swift in Sources */,
 				23BE4DBF241230BF00B72093 /* SceneDelegate.swift in Sources */,
 				23BE4DC1241230C000B72093 /* ContentView.swift in Sources */,
 			);
