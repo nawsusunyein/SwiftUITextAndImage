@@ -10,19 +10,62 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let componentsList = ["Text View, Line Commit and Foregrouond color","Text View, Font Color and Line Spacing","Text Formatting","Spacing between letters","Draw images using image view"]
+    let componentsList = ["Text View, Line Commit and Foregrouond color","Text View, Font Color and Line Spacing","Text Formatting & Spacing between letters","Draw images using image view","Gradient and Shapes"]
     
     var body: some View {
         NavigationView{
-            List(componentsList,id:\.self){componentName in
-                if(componentName == "Text View, Line Commit and Foregrouond color"){
+            List{
                     NavigationLink(destination:TextView()){
-                        Text(componentName)
-                    }
+                        Text(self.componentsList[0])
+                            .padding(10)
+                            .background(Color.black)
+                            .foregroundColor(Color.white)
+                            .lineLimit(2)
+                            .cornerRadius(10)
+                            .font(.system(size: 15))
+                        
+                    }.buttonStyle(PlainButtonStyle())
+
+                        
+                    
+                    NavigationLink(destination:TextViewFontStyleAndMulti()){
+                        Text(self.componentsList[1])
+                            .padding(10)
+                            .background(Color.black)
+                            .foregroundColor(Color.white)
+                            .lineLimit(2)
+                            .cornerRadius(10)
+                            .font(.system(size: 15))
+                    }.buttonStyle(PlainButtonStyle())
+                    
+                    NavigationLink(destination:FormatterString()){
+                        Text(self.componentsList[2])
+                        .padding(10)
+                            .background(Color.black)
+                            .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                            .font(.system(size: 15))
+                    }.buttonStyle(PlainButtonStyle())
+                    
+                    NavigationLink(destination:DrawImagesView()){
+                        Text(self.componentsList[3])
+                        .padding(10)
+                            .background(Color.black)
+                            .foregroundColor(Color.white)
+                            .cornerRadius(10)
+                            .font(.system(size:15))
+                    }.buttonStyle(PlainButtonStyle())
+                
+                NavigationLink(destination:GradientAndShapes()){
+                    Text(self.componentsList[4])
+                        .padding(10)
+                        .background(Color.black)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                        .font(.system(size:15))
+                }.buttonStyle(PlainButtonStyle())
                 }
                 
-            }
-        .navigationBarTitle("Components List")
         }
         
     }

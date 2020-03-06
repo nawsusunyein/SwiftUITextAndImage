@@ -17,6 +17,9 @@
 		23BE4DDF2412316E00B72093 /* SwiftUITextAndImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DDE2412316E00B72093 /* SwiftUITextAndImageUITests.swift */; };
 		23BE4DED24123D2F00B72093 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DEC24123D2F00B72093 /* TextView.swift */; };
 		23BE4DEF241240E600B72093 /* TextViewFontStyleAndMulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DEE241240E600B72093 /* TextViewFontStyleAndMulti.swift */; };
+		23BE4DF12412526E00B72093 /* FormatterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DF02412526E00B72093 /* FormatterString.swift */; };
+		23BE4DF3241259C400B72093 /* DrawImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DF2241259C400B72093 /* DrawImagesView.swift */; };
+		23BE4DF524125F6200B72093 /* GradientAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DF424125F6200B72093 /* GradientAndShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		23BE4DE02412316E00B72093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23BE4DEC24123D2F00B72093 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		23BE4DEE241240E600B72093 /* TextViewFontStyleAndMulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewFontStyleAndMulti.swift; sourceTree = "<group>"; };
+		23BE4DF02412526E00B72093 /* FormatterString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterString.swift; sourceTree = "<group>"; };
+		23BE4DF2241259C400B72093 /* DrawImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawImagesView.swift; sourceTree = "<group>"; };
+		23BE4DF424125F6200B72093 /* GradientAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAndShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				23BE4DC42412316700B72093 /* Preview Content */,
 				23BE4DEC24123D2F00B72093 /* TextView.swift */,
 				23BE4DEE241240E600B72093 /* TextViewFontStyleAndMulti.swift */,
+				23BE4DF02412526E00B72093 /* FormatterString.swift */,
+				23BE4DF2241259C400B72093 /* DrawImagesView.swift */,
+				23BE4DF424125F6200B72093 /* GradientAndShapes.swift */,
 			);
 			path = SwiftUITextAndImage;
 			sourceTree = "<group>";
@@ -275,9 +284,12 @@
 			files = (
 				23BE4DBD241230BF00B72093 /* AppDelegate.swift in Sources */,
 				23BE4DED24123D2F00B72093 /* TextView.swift in Sources */,
+				23BE4DF3241259C400B72093 /* DrawImagesView.swift in Sources */,
 				23BE4DEF241240E600B72093 /* TextViewFontStyleAndMulti.swift in Sources */,
+				23BE4DF12412526E00B72093 /* FormatterString.swift in Sources */,
 				23BE4DBF241230BF00B72093 /* SceneDelegate.swift in Sources */,
 				23BE4DC1241230C000B72093 /* ContentView.swift in Sources */,
+				23BE4DF524125F6200B72093 /* GradientAndShapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
