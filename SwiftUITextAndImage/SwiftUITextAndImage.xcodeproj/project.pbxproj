@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2351DF47241B8E1C00615B4A /* ImageAndOtherViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2351DF46241B8E1C00615B4A /* ImageAndOtherViewBackground.swift */; };
 		23BE4DBD241230BF00B72093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DBC241230BF00B72093 /* AppDelegate.swift */; };
 		23BE4DBF241230BF00B72093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DBE241230BF00B72093 /* SceneDelegate.swift */; };
 		23BE4DC1241230C000B72093 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DC0241230C000B72093 /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 		23BE4DF12412526E00B72093 /* FormatterString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DF02412526E00B72093 /* FormatterString.swift */; };
 		23BE4DF3241259C400B72093 /* DrawImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DF2241259C400B72093 /* DrawImagesView.swift */; };
 		23BE4DF524125F6200B72093 /* GradientAndShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BE4DF424125F6200B72093 /* GradientAndShapes.swift */; };
+		23EB73EA241B947200E45E95 /* CircleAsBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB73E9241B947200E45E95 /* CircleAsBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2351DF46241B8E1C00615B4A /* ImageAndOtherViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndOtherViewBackground.swift; sourceTree = "<group>"; };
 		23BE4DB9241230BF00B72093 /* SwiftUITextAndImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITextAndImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BE4DBC241230BF00B72093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23BE4DBE241230BF00B72093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		23BE4DF02412526E00B72093 /* FormatterString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterString.swift; sourceTree = "<group>"; };
 		23BE4DF2241259C400B72093 /* DrawImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawImagesView.swift; sourceTree = "<group>"; };
 		23BE4DF424125F6200B72093 /* GradientAndShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientAndShapes.swift; sourceTree = "<group>"; };
+		23EB73E9241B947200E45E95 /* CircleAsBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAsBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				23BE4DF02412526E00B72093 /* FormatterString.swift */,
 				23BE4DF2241259C400B72093 /* DrawImagesView.swift */,
 				23BE4DF424125F6200B72093 /* GradientAndShapes.swift */,
+				2351DF46241B8E1C00615B4A /* ImageAndOtherViewBackground.swift */,
+				23EB73E9241B947200E45E95 /* CircleAsBackground.swift */,
 			);
 			path = SwiftUITextAndImage;
 			sourceTree = "<group>";
@@ -288,6 +294,8 @@
 				23BE4DEF241240E600B72093 /* TextViewFontStyleAndMulti.swift in Sources */,
 				23BE4DF12412526E00B72093 /* FormatterString.swift in Sources */,
 				23BE4DBF241230BF00B72093 /* SceneDelegate.swift in Sources */,
+				2351DF47241B8E1C00615B4A /* ImageAndOtherViewBackground.swift in Sources */,
+				23EB73EA241B947200E45E95 /* CircleAsBackground.swift in Sources */,
 				23BE4DC1241230C000B72093 /* ContentView.swift in Sources */,
 				23BE4DF524125F6200B72093 /* GradientAndShapes.swift in Sources */,
 			);

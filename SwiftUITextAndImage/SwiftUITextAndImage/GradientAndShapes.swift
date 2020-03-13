@@ -23,12 +23,14 @@ struct GradientAndShapes: View {
             Text("Angular Gradient")
                 .frame(width:200,height:200)
                 .background(AngularGradient(gradient:Gradient(colors:[.purple,.green,.blue,.black,.pink,.orange,.white,.yellow]),center:.center))
+            Rectangle()
+                .fill(Color.blue)
+                .frame(width:20,height:20)
+            Circle()
+                .fill(Color.pink)
+                .frame(width:50,height: 50)
         }
        
-        
-       
-        
-        
     }
 }
 
